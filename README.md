@@ -14,7 +14,7 @@ Este proyecto sirve como laboratorio personal para aprender y experimentar con l
 
 
 ## 🛠 Estructura del proyecto
-
+```text
 mi_backend/
 ├── api/
 │   └── user_routes.py        # Endpoints de usuarios
