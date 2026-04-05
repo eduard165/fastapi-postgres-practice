@@ -17,12 +17,14 @@ Este proyecto sirve como laboratorio personal para aprender y experimentar con l
 
 ```text
 mi_backend/
-├── app/
-│   ├── main.py          # Punto de entrada de FastAPI
-│   ├── models.py        # Modelos SQLAlchemy / Pydantic
-│   ├── crud.py          # Funciones de acceso a la base de datos
-│   └── routers/         # Endpoints organizados
-├── venv/                # Entorno virtual
-├── .gitignore
-├── requirements.txt
-└── README.md
+├── api/
+│   └── user_routes.py        # Endpoints de usuarios
+├── db/
+│   └── database.py           # Configuración y conexión a PostgreSQL
+├── models/
+│   └── usr_model.py          # Modelos SQLAlchemy
+├── schemas/
+│   └── user_schema.py        # Esquemas Pydantic
+├── services/
+│   └── user_service.py       # Lógica de negocio / CRUD
+├── main.py                   # Punto de entrada de FastAPI
