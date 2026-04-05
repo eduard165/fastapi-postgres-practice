@@ -11,3 +11,18 @@ Este proyecto sirve como laboratorio personal para aprender y experimentar con l
 - **SQLAlchemy** – ORM para interactuar con la base de datos.
 - **Pydantic** – validación de datos y serialización.
 - **Uvicorn** – servidor ASGI para correr la aplicación.
+
+
+## 🛠 Estructura del proyecto
+
+```text
+mi_backend/
+├── app/
+│   ├── main.py          # Punto de entrada de FastAPI
+│   ├── models.py        # Modelos SQLAlchemy / Pydantic
+│   ├── crud.py          # Funciones de acceso a la base de datos
+│   └── routers/         # Endpoints organizados
+├── venv/                # Entorno virtual
+├── .gitignore
+├── requirements.txt
+└── README.md
