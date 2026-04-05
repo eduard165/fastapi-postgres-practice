@@ -15,14 +15,13 @@ Este proyecto sirve como laboratorio personal para aprender y experimentar con l
 
 ## 🛠 Estructura del proyecto
 
-```text
 mi_backend/
 ├── api/
 │   └── user_routes.py        # Endpoints de usuarios
 ├── db/
 │   └── database.py           # Configuración y conexión a PostgreSQL
 ├── models/
-│   └── usr_model.py          # Modelos SQLAlchemy
+│   └── user_model.py          # Modelos SQLAlchemy
 ├── schemas/
 │   └── user_schema.py        # Esquemas Pydantic
 ├── services/
